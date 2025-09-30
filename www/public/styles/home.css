@@ -1,0 +1,44 @@
+body {
+  font: normal medium/1.4 sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+th,
+td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+tbody td:nth-child(even) {
+  text-align: left;
+}
+
+
+
+
+body>a {
+  display: flex;
+  height: 80px;
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}

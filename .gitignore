@@ -1,0 +1,12 @@
+.DS_Store
+
+.env
+globals.env
+
+/database/*
+!/database/.gitkeep
+
+/logs/*
+!/logs/apache2/.gitkeep
+!/logs/mariadb/.gitkeep
+!/logs/xdebug/.gitkeep
